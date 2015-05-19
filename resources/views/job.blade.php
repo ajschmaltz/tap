@@ -19,8 +19,8 @@
         </div>
       </div>
     </div>
-    <footer>
-      <button onclick="fullpage.moveSectionDown();" class="btn btn-default">Next</button>
+    <footer onclick="fullpage.moveSectionDown();">
+      NEXT
     </footer>
   </div>
 
@@ -35,8 +35,8 @@
         </div>
       </div>
     </div>
-    <footer>
-      <button onclick="fullpage.moveSectionDown();" class="btn btn-default">Next</button>
+    <footer onclick="fullpage.moveSectionDown();">
+      NEXT
     </footer>
   </div>
 
@@ -48,12 +48,8 @@
         <div id="map-canvas" style="height: 300px;"></div>
       </div>
     </div>
-    <footer>
-      <button onclick="fullpage.moveSectionUp();" class="btn btn-default">Back</button>
-      <button onclick="fullpage.moveSectionDown();" class="btn btn-default">
-        <span class="glyphicon glyphicon-arrow-down"></span>
-        Next
-      </button>
+    <footer onclick="fullpage.moveSectionDown();">
+      NEXT
     </footer>
   </div>
 
@@ -67,8 +63,7 @@
     </div>
   </div>
   <footer>
-    <button onclick="fullpage.moveSectionUp();" class="btn btn-default">Back</button>
-    <button class="btn btn-success">Done</button>
+    DONE
   </footer>
 </div>
 
