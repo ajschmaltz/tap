@@ -9,7 +9,7 @@
   <div class="section">
     <div class="row screen">
       <div class="col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 col-sm-10 col-sm-push-1">
-        <h1 class="text-center">Get a quote for tree removal. Here's what we want to know:</h1>
+        <h1 class="text-center">Get a quote for tree removal.</h1>
         <hr/>
         <ul>
           <li class="lead">Take a photo of the tree you need removed</li>

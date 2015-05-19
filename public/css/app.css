@@ -6241,7 +6241,7 @@ header {
   z-index: 10;
   background: #e3e3e3 url('/logo.jpg') 50% 50% no-repeat;
   background-size: contain;
-  border: 2vh solid #e3e3e3;
+  border: 2.5vh solid #e3e3e3;
 }
 .screen {
   height: 80vh;
@@ -6255,15 +6255,16 @@ footer {
   font-weight: bold;
   font-size: 3vh;
   color: #e3e3e3;
+  cursor: pointer;
 }
 h1 {
   font-size: 5vh;
   display: block;
-  height: 10vh;
+  height: 13vh;
 }
 .tap {
   height: 20vh;
-  margin-top: 15vh;
+  margin-top: 14vh;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -30,13 +30,12 @@
     },
     callbacks: {
       onUpload: function(id, name) {
-        var button, mycanvas, size;
+        var button, mycanvas;
         button = this.getButton(id);
+        button.style.display = 'none';
         mycanvas = document.createElement("canvas");
         mycanvas.className = "poop";
-        size = Math.min(window.innerWidth, window.innerHeight / 2);
-        console.log(size);
-        uploader.drawThumbnail(id, mycanvas, size);
+        uploader.drawThumbnail(id, mycanvas, window.innerWidth * .9);
         return button.parentNode.getElementsByClassName('gallery')[0].appendChild(mycanvas);
       }
     }
