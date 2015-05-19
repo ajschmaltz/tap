@@ -9,13 +9,13 @@
   <div class="section">
     <div class="row screen">
       <div class="col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 col-sm-10 col-sm-push-1">
-        <h1 class="text-center">Get a quote for tree removal.</h1>
+        <h1 class="text-center">Get a quote for lawn care.</h1>
         <hr/>
         <ul>
-          <li class="lead">Take a photo of the tree you need removed</li>
-          <li class="lead">Take a photo of any obsticals we need to know about</li>
-          <li class="lead">Mark the location of the job</li>
-          <li class="lead">Provide your contact information</li>
+          <li class="lead">Take a photo of your front yard.</li>
+          <li class="lead">Take a photo of your side yard.</li>
+          <li class="lead">Take a photo of your back yard.</li>
+          <li class="lead">Mark your location.</li>
         </ul>
       </div>
     </div>

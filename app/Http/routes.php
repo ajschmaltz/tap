@@ -19,16 +19,15 @@ Route::post('upload', 'UploadController@upload');
 
 Route::delete('upload', 'UploadController@delete');
 
+Route::get('create', function(){
+  return view('create');
+});
+
 Route::get('job', function(){
   return view('job')->withSteps([
-    'Something about a tree',
-    'Something about your face',
-    'This is seriously easy',
-    'This is another thing',
-    'If we do tons does it slow it down',
-    'Lets just do 2 more',
-    'Okay, now only one more',
-    'I am the last one... then get yo address on.'
+    'Take a photo of your front yard.',
+    'Take a photo of your side yard.',
+    'Take a photo of your back yard.'
   ]);
 });
 
