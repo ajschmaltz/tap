@@ -2,11 +2,10 @@
 
 @section ('content')
 
-<header></header>
-
 <div id="fullpage">
 
   <div class="section">
+    <header></header>
     <div class="row screen">
       <div class="col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 col-sm-10 col-sm-push-1">
         <h1 class="text-center">Get a quote for lawn care.</h1>
@@ -19,9 +18,6 @@
         </ul>
       </div>
     </div>
-    <footer onclick="fullpage.moveSectionDown();">
-      START
-    </footer>
   </div>
 
   @foreach ($steps as $step)
@@ -37,10 +33,6 @@
         <input class="form-control" placeholder="Enter your address" />
       </div>
     </div>
-    <footer onclick="fullpage.moveSectionDown();">
-      <div style="width: 40%; display: inline-block; text-align: center;">NEXT</div>
-      <div style="width: 40%; display: inline-block; text-align: center;">ADD PHOTO</div>
-    </footer>
   </div>
 
   <div class="section">
@@ -51,9 +43,6 @@
       </div>
     </div>
   </div>
-  <footer>
-    DONE
-  </footer>
 </div>
 
 @endsection

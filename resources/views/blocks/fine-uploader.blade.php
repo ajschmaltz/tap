@@ -7,10 +7,10 @@
         <div class="shutter">
           <img class="tap" src="/tap.jpg" />
         </div>
+        <div style="color: #999; margin-top: 50px;">
+          Swipe <span class="glyphicon glyphicon-circle-arrow-right"></span> to add more photos or <span class="glyphicon glyphicon-circle-arrow-down"></span> for next step
+        </div>
       </div>
     </div>
   </div>
-  <footer onclick="fullpage.moveSectionDown();">
-    NEXT
-  </footer>
 </div>
