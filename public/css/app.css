@@ -6261,10 +6261,6 @@ h1 {
   font-size: 5vh;
   display: block;
   height: 13vh;
-  text-align: left !important;
-  padding-left: 8vh;
-  background: url('/step.jpg') 0 50% no-repeat;
-  background-size: contain;
 }
 .tap {
   height: 20vh;
