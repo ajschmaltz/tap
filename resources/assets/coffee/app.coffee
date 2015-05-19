@@ -21,7 +21,7 @@ uploader = new qq.FineUploaderBasic
       mycanvas.className = "poop"
       size = Math.min window.innerWidth, window.innerHeight / 2
       console.log size
-      uploader.drawThumbnail id, mycanvas, size *.8
+      uploader.drawThumbnail id, mycanvas, size
       button.parentNode.getElementsByClassName('gallery')[0].appendChild mycanvas
 
 initializeMap = ->

@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="59" selection-start="614" selection-end="829" vertical-scroll-proportion="0.7885714" vertical-offset="276" max-vertical-offset="1794">
+            <state line="23" column="47" selection-start="765" selection-end="765" vertical-scroll-proportion="-4.9607844" vertical-offset="276" max-vertical-offset="1794">
               <folding />
             </state>
           </provider>
@@ -71,18 +71,18 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="7" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="2783">
+            <state line="20" column="7" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="2783">
               <folding>
-                <marker date="1431993103000" expanded="true" signature="533:553" placeholder="{...}" />
+                <marker date="1431993632000" expanded="true" signature="533:553" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="job.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="job.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/job.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="37" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-1.7692307" vertical-offset="943" max-vertical-offset="2231">
+            <state line="55" column="46" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.82596684" vertical-offset="966" max-vertical-offset="2254">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
@@ -145,8 +145,8 @@
         <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
-        <option value="$PROJECT_DIR$/resources/views/job.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/coffee/app.coffee" />
+        <option value="$PROJECT_DIR$/resources/views/job.blade.php" />
       </list>
     </option>
   </component>
@@ -494,27 +494,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="7" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="299" max-vertical-offset="2783">
+        <state line="20" column="7" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="2783">
           <folding>
-            <marker date="1431993103000" expanded="true" signature="533:553" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/job.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="37" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-1.7692307" vertical-offset="943" max-vertical-offset="2231">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+            <marker date="1431993632000" expanded="true" signature="533:553" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="59" selection-start="614" selection-end="829" vertical-scroll-proportion="0.7885714" vertical-offset="276" max-vertical-offset="1794">
+        <state line="23" column="47" selection-start="765" selection-end="765" vertical-scroll-proportion="-4.9607844" vertical-offset="276" max-vertical-offset="1794">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/job.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="46" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.82596684" vertical-offset="966" max-vertical-offset="2254">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
