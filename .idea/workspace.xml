@@ -53,7 +53,7 @@
       <file leaf-file-name="app.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="14" selection-start="243" selection-end="243" vertical-scroll-proportion="0.20478724" vertical-offset="314" max-vertical-offset="759">
+            <state line="30" column="17" selection-start="352" selection-end="352" vertical-scroll-proportion="0.87765956" vertical-offset="360" max-vertical-offset="851">
               <folding />
             </state>
           </provider>
@@ -73,7 +73,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="7" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="2783">
               <folding>
-                <marker date="1431995172000" expanded="true" signature="533:553" placeholder="{...}" />
+                <marker date="1431995232000" expanded="true" signature="533:553" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -488,7 +488,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="7" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="2783">
           <folding>
-            <marker date="1431995172000" expanded="true" signature="533:553" placeholder="{...}" />
+            <marker date="1431995232000" expanded="true" signature="533:553" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -511,7 +511,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="14" selection-start="243" selection-end="243" vertical-scroll-proportion="0.20478724" vertical-offset="314" max-vertical-offset="759">
+        <state line="30" column="17" selection-start="352" selection-end="352" vertical-scroll-proportion="0.87765956" vertical-offset="360" max-vertical-offset="851">
           <folding />
         </state>
       </provider>

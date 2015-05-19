@@ -6248,5 +6248,8 @@ footer {
   height: 10vh;
   background-color: #eee;
 }
+h1 {
+  font-size: 5vh;
+}
 
 /*# sourceMappingURL=app.css.map */
