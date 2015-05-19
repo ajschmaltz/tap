@@ -1,5 +1,5 @@
 (function() {
-  var Map, getCookie, handleNoGeolocation, initializeMap, map, uploader;
+  var Map, buttons, elements, getCookie, handleNoGeolocation, initializeMap, map, uploader;
 
   getCookie = function(name) {
     var cookie, i, len, ref;
@@ -13,14 +13,18 @@
     return null;
   };
 
+  buttons = [];
+
+  elements = document.getElementsByClassName("shutter");
+
+  Array.prototype.forEach.call(elements, function(el) {
+    return buttons.push({
+      element: el
+    });
+  });
+
   uploader = new qq.FineUploaderBasic({
-    extraButtons: [
-      {
-        element: document.getElementById("one")
-      }, {
-        element: document.getElementById("two")
-      }
-    ],
+    extraButtons: buttons,
     element: document.getElementById('fine-uploader'),
     request: {
       endpoint: '/upload',

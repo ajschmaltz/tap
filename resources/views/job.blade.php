@@ -32,7 +32,7 @@
         </div>
         <div class="text-center">
           <div class="gallery"></div>
-          <div id="one">
+          <div class="shutter">
             <img class="tap" src="/tap.jpg" />
           </div>
         </div>
@@ -49,7 +49,7 @@
         <h1 class="text-center">Take a photo of any obvious obstacles.</h1>
         <div class="text-center">
           <div class="gallery"></div>
-          <div id="two">
+          <div class="shutter">
             <img class="tap" src="/tap.jpg" />
           </div>
         </div>
@@ -64,7 +64,9 @@
     <div class="row screen">
       <div class="col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 col-sm-10 col-sm-push-1">
         <h1 class="text-center">Where is the job?</h1>
-        <div id="map-canvas" style="height: 300px;"></div>
+        <div id="map-canvas" style="height: 45vh;"></div>
+        <hr/>
+        <input class="form-control" placeholder="Enter your address" />
       </div>
     </div>
     <footer onclick="fullpage.moveSectionDown();">

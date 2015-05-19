@@ -3,12 +3,13 @@ getCookie = (name) ->
     return decodeURIComponent cookie[(1 + name.length)...]
   null
 
+buttons = []
+elements = document.getElementsByClassName("shutter")
+Array::forEach.call elements, (el) ->
+  buttons.push element: el
+
 uploader = new qq.FineUploaderBasic
-  extraButtons: [
-    element: document.getElementById "one"
-  ,
-    element: document.getElementById "two"
-  ]
+  extraButtons: buttons
   element: document.getElementById 'fine-uploader'
   request:
     endpoint: '/upload'
