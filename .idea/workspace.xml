@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="16" selection-start="529" selection-end="529" vertical-scroll-proportion="-11.36" vertical-offset="682" max-vertical-offset="1127">
+            <state line="14" column="12" selection-start="177" selection-end="177" vertical-scroll-proportion="0.18351063" vertical-offset="253" max-vertical-offset="1196">
               <folding />
             </state>
           </provider>
@@ -77,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="job.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="job.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/job.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="13" selection-start="640" selection-end="640" vertical-scroll-proportion="0.824" vertical-offset="266" max-vertical-offset="1817">
+            <state line="25" column="13" selection-start="640" selection-end="640" vertical-scroll-proportion="-11.884615" vertical-offset="266" max-vertical-offset="1817">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -142,8 +142,8 @@
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/resources/assets/coffee/app.coffee" />
-        <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
         <option value="$PROJECT_DIR$/resources/views/job.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
       </list>
     </option>
   </component>
@@ -496,19 +496,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="16" selection-start="529" selection-end="529" vertical-scroll-proportion="-11.36" vertical-offset="682" max-vertical-offset="1127">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/job.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="640" selection-end="640" vertical-scroll-proportion="0.824" vertical-offset="266" max-vertical-offset="1817">
+        <state line="25" column="13" selection-start="640" selection-end="640" vertical-scroll-proportion="-11.884615" vertical-offset="266" max-vertical-offset="1817">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="177" selection-end="177" vertical-scroll-proportion="0.18351063" vertical-offset="253" max-vertical-offset="1196">
+          <folding />
         </state>
       </provider>
     </entry>
