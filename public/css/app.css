@@ -6255,6 +6255,12 @@ footer {
 }
 h1 {
   font-size: 5vh;
+  display: block;
+  height: 10vh;
+}
+.tap {
+  height: 20vh;
+  margin-top: 15vh;
 }
 
 /*# sourceMappingURL=app.css.map */

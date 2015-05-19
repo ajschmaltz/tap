@@ -15,7 +15,9 @@
         </div>
         <div class="text-center">
           <div class="gallery"></div>
-          <div class="btn btn-primary" id="one">Take a Photo</div>
+          <div id="one">
+            <img class="tap" src="/tap.jpg" />
+          </div>
         </div>
       </div>
     </div>
@@ -31,7 +33,9 @@
         <hr/>
         <div class="text-center">
           <div class="gallery"></div>
-          <div class="btn btn-primary" id="two">Take a Photo</div>
+          <div id="two">
+            <img class="tap" src="/tap.jpg" />
+          </div>
         </div>
       </div>
     </div>
