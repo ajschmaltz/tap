@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="7" selection-start="425" selection-end="425" vertical-scroll-proportion="-7.9615383" vertical-offset="0" max-vertical-offset="621">
+            <state line="8" column="83" selection-start="427" selection-end="427" vertical-scroll-proportion="0.49066666" vertical-offset="0" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -77,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="job.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="job.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/job.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="72" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.368" vertical-offset="805" max-vertical-offset="1472">
+            <state line="49" column="33" selection-start="1605" selection-end="1605" vertical-scroll-proportion="-43.346153" vertical-offset="0" max-vertical-offset="1472">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#footer#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -147,8 +147,8 @@
         <option value="$PROJECT_DIR$/resources/views/blocks/fine-uploader.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/job.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
       </list>
     </option>
   </component>
@@ -446,21 +446,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="425" selection-end="425" vertical-scroll-proportion="-7.9615383" vertical-offset="0" max-vertical-offset="621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/job.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="72" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.368" vertical-offset="805" max-vertical-offset="1472">
+        <state line="49" column="33" selection-start="1605" selection-end="1605" vertical-scroll-proportion="-43.346153" vertical-offset="0" max-vertical-offset="1472">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#footer#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#footer#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="83" selection-start="427" selection-end="427" vertical-scroll-proportion="0.49066666" vertical-offset="0" max-vertical-offset="690">
+          <folding />
         </state>
       </provider>
     </entry>
