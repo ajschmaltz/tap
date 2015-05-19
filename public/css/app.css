@@ -6243,6 +6243,7 @@ header {
 }
 .screen {
   height: 80vh;
+  padding: 0 1vw;
 }
 footer {
   height: 10vh;
