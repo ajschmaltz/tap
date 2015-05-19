@@ -6235,5 +6235,17 @@ label,
   display: block;
   margin: 0 auto;
 }
+header {
+  height: 10vh;
+  background-color: #000;
+  position: relative;
+}
+.screen {
+  height: 80vh;
+}
+footer {
+  height: 10vh;
+  background-color: #eee;
+}
 
 /*# sourceMappingURL=app.css.map */
