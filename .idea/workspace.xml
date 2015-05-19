@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="10" selection-start="2094" selection-end="2094" vertical-scroll-proportion="0.0" vertical-offset="1444" max-vertical-offset="1794">
+            <state line="71" column="28" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.7432217" vertical-offset="1167" max-vertical-offset="1794">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="job.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/job.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="51" selection-start="561" selection-end="561" vertical-scroll-proportion="-14.153846" vertical-offset="0" max-vertical-offset="1219">
+            <state line="31" column="8" selection-start="984" selection-end="984" vertical-scroll-proportion="-19.653847" vertical-offset="202" max-vertical-offset="1219">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -79,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fine-uploader.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fine-uploader.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/blocks/fine-uploader.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="76" selection-start="471" selection-end="471" vertical-scroll-proportion="0.3599374" vertical-offset="0" max-vertical-offset="639">
+            <state line="10" column="76" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -130,15 +130,15 @@
         <option value="$PROJECT_DIR$/public/js/fullpage.min.js" />
         <option value="$PROJECT_DIR$/public/css/fullpage.css" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
-        <option value="$PROJECT_DIR$/resources/assets/coffee/app.coffee" />
         <option value="$PROJECT_DIR$/resources/views/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_05_19_164647_create_fields_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_05_19_164517_create_lead_forms_table.php" />
         <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
-        <option value="$PROJECT_DIR$/resources/views/job.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/blocks/fine-uploader.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/job.blade.php" />
+        <option value="$PROJECT_DIR$/resources/assets/coffee/app.coffee" />
       </list>
     </option>
   </component>
@@ -470,23 +470,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="10" selection-start="2094" selection-end="2094" vertical-scroll-proportion="0.0" vertical-offset="1444" max-vertical-offset="1794">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_05_19_164517_create_lead_forms_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="29" selection-start="433" selection-end="433" vertical-scroll-proportion="0.5162095" vertical-offset="230" max-vertical-offset="966">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/fullpage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="1" selection-start="4018" selection-end="4018" vertical-scroll-proportion="0.0" vertical-offset="3820" max-vertical-offset="4623">
           <folding />
         </state>
       </provider>
@@ -512,21 +498,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/blocks/fine-uploader.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="76" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/fullpage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="195" column="1" selection-start="4018" selection-end="4018" vertical-scroll-proportion="0.0" vertical-offset="3820" max-vertical-offset="4623">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/job.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="51" selection-start="561" selection-end="561" vertical-scroll-proportion="-14.153846" vertical-offset="0" max-vertical-offset="1219">
+        <state line="31" column="8" selection-start="984" selection-end="984" vertical-scroll-proportion="-19.653847" vertical-offset="202" max-vertical-offset="1219">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/blocks/fine-uploader.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="76" selection-start="471" selection-end="471" vertical-scroll-proportion="0.3599374" vertical-offset="0" max-vertical-offset="639">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="71" column="28" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.7432217" vertical-offset="1167" max-vertical-offset="1794">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -108,7 +108,7 @@
   fullpage.initialize("#fullpage", {
     css3: true,
     afterLoad: function(anchorLink, index, slideAnchor, slideIndex) {
-      if (index === 3) {
+      if (index === 2) {
         Map.boot();
       }
     }

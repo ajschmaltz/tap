@@ -69,5 +69,5 @@ class Map
 fullpage.initialize "#fullpage",
   css3: true
   afterLoad: (anchorLink, index, slideAnchor, slideIndex) ->
-    Map.boot() if index is 3
+    Map.boot() if index is 2
     return
