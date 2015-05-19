@@ -38,7 +38,8 @@
       </div>
     </div>
     <footer onclick="fullpage.moveSectionDown();">
-      NEXT
+      <div style="width: 40%; display: inline-block; text-align: center;">NEXT</div>
+      <div style="width: 40%; display: inline-block; text-align: center;">ADD PHOTO</div>
     </footer>
   </div>
 
