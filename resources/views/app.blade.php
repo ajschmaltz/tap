@@ -15,6 +15,7 @@
 
 	@yield('content')
 
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
   <script src="{{ asset('/fine-uploader/fine-uploader.min.js') }}" type="text/javascript"></script>
   <script src="{{ asset('/js/fullpage.min.js') }}"></script>

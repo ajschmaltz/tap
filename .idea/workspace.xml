@@ -35,7 +35,7 @@
       <file leaf-file-name="app.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="83" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+            <state line="17" column="60" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,16 @@
       <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="28" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.7432217" vertical-offset="1167" max-vertical-offset="1794">
+            <state line="13" column="10" selection-start="431" selection-end="431" vertical-scroll-proportion="-1.4210526" vertical-offset="1190" max-vertical-offset="1817">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fullpage.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/fullpage.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="449" selection-start="23552" selection-end="23552" vertical-scroll-proportion="0.0" vertical-offset="567" max-vertical-offset="1311">
               <folding />
             </state>
           </provider>
@@ -62,7 +71,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="7" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="2852">
+            <state line="29" column="7" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="2898">
               <folding />
             </state>
           </provider>
@@ -73,7 +82,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="31" column="8" selection-start="984" selection-end="984" vertical-scroll-proportion="-19.653847" vertical-offset="202" max-vertical-offset="1219">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <marker date="1432057392000" expanded="true" signature="58:1385" placeholder="..." />
+                <marker date="1432057392000" expanded="true" signature="83:607" placeholder="..." />
+                <marker date="1432057392000" expanded="true" signature="134:598" placeholder="..." />
+                <marker date="1432057392000" expanded="true" signature="224:587" placeholder="..." />
+                <marker date="1432057392000" expanded="true" signature="315:574" placeholder="..." />
+                <marker date="1432057392000" expanded="true" signature="632:983" placeholder="..." />
+                <marker date="1432057392000" expanded="true" signature="661:974" placeholder="..." />
+                <marker date="1432057392000" expanded="true" signature="751:963" placeholder="..." />
+                <marker date="1432057392000" expanded="true" signature="844:857" placeholder="..." />
+                <marker date="1432057392000" expanded="true" signature="1088:1378" placeholder="..." />
+                <marker date="1432057392000" expanded="true" signature="1117:1369" placeholder="..." />
+                <marker date="1432057392000" expanded="true" signature="1207:1358" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -127,17 +147,17 @@
         <option value="$PROJECT_DIR$/resources/views/fine-uploader.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/blocks/stripe-payment.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/public/js/fullpage.min.js" />
         <option value="$PROJECT_DIR$/public/css/fullpage.css" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/resources/views/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_05_19_164647_create_fields_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_05_19_164517_create_lead_forms_table.php" />
         <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
         <option value="$PROJECT_DIR$/resources/views/blocks/fine-uploader.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/job.blade.php" />
+        <option value="$PROJECT_DIR$/public/js/fullpage.min.js" />
+        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/coffee/app.coffee" />
       </list>
     </option>
@@ -206,8 +226,18 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="tap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -221,29 +251,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blocks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -387,7 +399,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="33" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0" vertical-offset="1127" max-vertical-offset="1472">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1432057392000" expanded="true" signature="58:1385" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="83:607" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="134:598" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="224:587" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="315:574" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="632:983" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="661:974" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="751:963" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="844:857" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="1088:1378" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="1117:1369" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="1207:1358" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -446,11 +469,6 @@
         <state line="9" column="7" selection-start="302" selection-end="302" vertical-scroll-proportion="0.29113925" vertical-offset="0" max-vertical-offset="711" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/fullpage.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="641" selection-start="19500" selection-end="19500" vertical-scroll-proportion="0.9527221" vertical-offset="278" max-vertical-offset="1081" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="45" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
@@ -465,7 +483,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="7" selection-start="700" selection-end="700" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="2852">
+        <state line="29" column="7" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="2898">
           <folding />
         </state>
       </provider>
@@ -473,13 +491,6 @@
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_05_19_164517_create_lead_forms_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="29" selection-start="433" selection-end="433" vertical-scroll-proportion="0.5162095" vertical-offset="230" max-vertical-offset="966">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="83" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
@@ -518,14 +529,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="8" selection-start="984" selection-end="984" vertical-scroll-proportion="-19.653847" vertical-offset="202" max-vertical-offset="1219">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1432057392000" expanded="true" signature="58:1385" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="83:607" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="134:598" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="224:587" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="315:574" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="632:983" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="661:974" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="751:963" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="844:857" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="1088:1378" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="1117:1369" placeholder="..." />
+            <marker date="1432057392000" expanded="true" signature="1207:1358" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/fullpage.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="449" selection-start="23552" selection-end="23552" vertical-scroll-proportion="0.0" vertical-offset="567" max-vertical-offset="1311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="60" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="28" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.7432217" vertical-offset="1167" max-vertical-offset="1794">
+        <state line="13" column="10" selection-start="431" selection-end="431" vertical-scroll-proportion="-1.4210526" vertical-offset="1190" max-vertical-offset="1817">
           <folding />
         </state>
       </provider>

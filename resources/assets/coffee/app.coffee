@@ -66,8 +66,9 @@ class Map
       init = true
       initializeMap()
 
-fullpage.initialize "#fullpage",
-  css3: true
-  afterLoad: (anchorLink, index, slideAnchor, slideIndex) ->
-    Map.boot() if index is 2
-    return
+$(document).ready ->
+  $("#fullpage").fullpage
+    css3: true
+    afterLoad: (anchorLink, index, slideAnchor, slideIndex) ->
+      Map.boot() if index is 2
+      return
