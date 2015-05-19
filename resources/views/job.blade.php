@@ -24,41 +24,9 @@
     </footer>
   </div>
 
-  <div class="section">
-    <div class="row screen">
-      <div class="col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 col-sm-10 col-sm-push-1">
-        <h1 class="text-center">Take a photo of the tree you need removed.</h1>
-        <div id="fine-uploader">
-        </div>
-        <div class="text-center">
-          <div class="gallery"></div>
-          <div class="shutter">
-            <img class="tap" src="/tap.jpg" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer onclick="fullpage.moveSectionDown();">
-      NEXT
-    </footer>
-  </div>
-
-  <div class="section">
-    <div class="row screen">
-      <div class="col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 col-sm-10 col-sm-push-1">
-        <h1 class="text-center">Take a photo of any obvious obstacles.</h1>
-        <div class="text-center">
-          <div class="gallery"></div>
-          <div class="shutter">
-            <img class="tap" src="/tap.jpg" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer onclick="fullpage.moveSectionDown();">
-      NEXT
-    </footer>
-  </div>
+  @foreach ($steps as $step)
+  @include ('blocks.fine-uploader')
+  @endforeach
 
   <div class="section">
     <div class="row screen">
