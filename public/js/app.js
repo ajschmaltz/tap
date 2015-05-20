@@ -108,6 +108,9 @@
   $(document).ready(function() {
     var add_button, max_fields, wrapper, x;
     $("#fullpage").fullpage({
+      controlArrows: false,
+      verticalCentered: false,
+      loopHorizontal: false,
       css3: true,
       afterLoad: function(anchorLink, index, slideAnchor, slideIndex) {
         if (index === 2 && document.getElementById("map-canvas")) {

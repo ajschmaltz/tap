@@ -68,6 +68,9 @@ class Map
 
 $(document).ready ->
   $("#fullpage").fullpage
+    controlArrows: false,
+    verticalCentered: false,
+    loopHorizontal: false,
     css3: true
     afterLoad: (anchorLink, index, slideAnchor, slideIndex) ->
       Map.boot() if index is 2 and document.getElementById("map-canvas")

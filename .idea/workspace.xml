@@ -43,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
+      <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="12" selection-start="680" selection-end="680" vertical-scroll-proportion="-16.8" vertical-offset="707" max-vertical-offset="1311">
+            <state line="72" column="25" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.2605753" vertical-offset="1502" max-vertical-offset="2231">
               <folding />
             </state>
           </provider>
@@ -87,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fullpage.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="fullpage.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/fullpage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="58" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.6766169" vertical-offset="1501" max-vertical-offset="4623">
+            <state line="78" column="34" selection-start="1717" selection-end="1717" vertical-scroll-proportion="-11.269231" vertical-offset="1501" max-vertical-offset="4623">
               <folding />
             </state>
           </provider>
@@ -150,7 +150,6 @@
         <option value="$PROJECT_DIR$/app/LeadForm.php" />
         <option value="$PROJECT_DIR$/resources/views/blocks/location.blade.php" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
-        <option value="$PROJECT_DIR$/resources/assets/coffee/app.coffee" />
         <option value="$PROJECT_DIR$/resources/views/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/LeadController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
@@ -159,6 +158,7 @@
         <option value="$PROJECT_DIR$/resources/views/job.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
         <option value="$PROJECT_DIR$/public/css/fullpage.css" />
+        <option value="$PROJECT_DIR$/resources/assets/coffee/app.coffee" />
       </list>
     </option>
   </component>
@@ -682,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="197" selection-start="2677" selection-end="2677" vertical-scroll-proportion="-15.44" vertical-offset="1523" max-vertical-offset="2162">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="15" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
@@ -752,7 +745,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/fullpage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="58" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.6766169" vertical-offset="1501" max-vertical-offset="4623">
+        <state line="78" column="34" selection-start="1717" selection-end="1717" vertical-scroll-proportion="-11.269231" vertical-offset="1501" max-vertical-offset="4623">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="25" selection-start="2075" selection-end="2075" vertical-scroll-proportion="0.2605753" vertical-offset="1502" max-vertical-offset="2231">
           <folding />
         </state>
       </provider>
