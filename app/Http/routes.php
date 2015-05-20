@@ -13,7 +13,9 @@
 
 use App\LeadForm;
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', function(){
+  return redirect('form/1');
+});
 
 Route::get('home', 'HomeController@index');
 

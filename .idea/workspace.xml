@@ -23,6 +23,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="28" selection-start="469" selection-end="469" vertical-scroll-proportion="0.19554849" vertical-offset="38" max-vertical-offset="736">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LeadFormController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LeadFormController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -38,15 +47,6 @@
         <entry file="file://$PROJECT_DIR$/app/LeadForm.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="68" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="34" selection-start="673" selection-end="673" vertical-scroll-proportion="0.571912" vertical-offset="145" max-vertical-offset="2208">
               <folding />
             </state>
           </provider>
@@ -151,13 +151,13 @@
         <option value="$PROJECT_DIR$/public/js/app.js" />
         <option value="$PROJECT_DIR$/resources/views/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/LeadController.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/LeadFormController.php" />
         <option value="$PROJECT_DIR$/resources/views/job.blade.php" />
         <option value="$PROJECT_DIR$/public/css/fullpage.css" />
         <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
         <option value="$PROJECT_DIR$/resources/views/blocks/fine-uploader.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/coffee/app.coffee" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -677,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="51" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LeadFormController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="3" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="851">
@@ -733,6 +726,13 @@
     <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="34" selection-start="673" selection-end="673" vertical-scroll-proportion="0.571912" vertical-offset="145" max-vertical-offset="2208">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="28" selection-start="469" selection-end="469" vertical-scroll-proportion="0.19554849" vertical-offset="38" max-vertical-offset="736">
           <folding />
         </state>
       </provider>
