@@ -36,9 +36,8 @@
       onUpload: function(id, name) {
         var button, mycanvas;
         button = this.getButton(id);
-        button.style.display = 'none';
         mycanvas = document.createElement("img");
-        mycanvas.className = "poop";
+        mycanvas.className = "preview";
         uploader.drawThumbnail(id, mycanvas, 1000);
         return button.parentNode.getElementsByClassName('gallery')[0].appendChild(mycanvas);
       }

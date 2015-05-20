@@ -18,9 +18,8 @@ uploader = new qq.FineUploaderBasic
   callbacks:
     onUpload: (id, name) ->
       button = @getButton(id)
-      button.style.display = 'none'
       mycanvas = document.createElement "img"
-      mycanvas.className = "poop"
+      mycanvas.className = "preview"
       uploader.drawThumbnail id, mycanvas, 1000
       button.parentNode.getElementsByClassName('gallery')[0].appendChild mycanvas
 

@@ -46,7 +46,7 @@
       <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="47" selection-start="756" selection-end="756" vertical-scroll-proportion="0.49407783" vertical-offset="237" max-vertical-offset="2231">
+            <state line="21" column="34" selection-start="673" selection-end="673" vertical-scroll-proportion="0.571912" vertical-offset="145" max-vertical-offset="2208">
               <folding />
             </state>
           </provider>
@@ -78,9 +78,9 @@
       <file leaf-file-name="fine-uploader.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/blocks/fine-uploader.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="10" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
+            <state line="14" column="6" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
               <folding>
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,16 +155,16 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/LeadFormController.php" />
         <option value="$PROJECT_DIR$/resources/views/job.blade.php" />
         <option value="$PROJECT_DIR$/public/css/fullpage.css" />
-        <option value="$PROJECT_DIR$/resources/views/blocks/fine-uploader.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/less/app.less" />
+        <option value="$PROJECT_DIR$/resources/views/blocks/fine-uploader.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/coffee/app.coffee" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
-    <option name="y" value="200" />
+    <option name="x" value="6" />
+    <option name="y" value="104" />
     <option name="width" value="1138" />
     <option name="height" value="754" />
   </component>
@@ -334,24 +334,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -493,7 +475,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="200" width="1138" height="754" extended-state="0" />
+    <frame x="6" y="104" width="1138" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -688,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="80" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LeadController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="4" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
@@ -718,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/job.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="89" selection-end="106" vertical-scroll-proportion="0.24693252" vertical-offset="0" max-vertical-offset="1150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/fullpage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="34" selection-start="1717" selection-end="1717" vertical-scroll-proportion="-11.269231" vertical-offset="1501" max-vertical-offset="4623">
@@ -732,25 +700,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/blocks/fine-uploader.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/job.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="10" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="7" column="4" selection-start="89" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1150">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/less/app.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="22" selection-start="1150" selection-end="1150" vertical-scroll-proportion="0.73344374" vertical-offset="1328" max-vertical-offset="1932">
+        <state line="44" column="10" selection-start="649" selection-end="649" vertical-scroll-proportion="-14.04" vertical-offset="661" max-vertical-offset="1679">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="80" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/blocks/fine-uploader.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="6" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="460">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="47" selection-start="756" selection-end="756" vertical-scroll-proportion="0.49407783" vertical-offset="237" max-vertical-offset="2231">
+        <state line="21" column="34" selection-start="673" selection-end="673" vertical-scroll-proportion="0.571912" vertical-offset="145" max-vertical-offset="2208">
           <folding />
         </state>
       </provider>
