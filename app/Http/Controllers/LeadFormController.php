@@ -23,4 +23,9 @@ class LeadFormController extends Controller {
     ]);
   }
 
+  public function show($id, LeadForm $leadForm)
+  {
+    return view('job')->withForm($leadForm->find($id));
+  }
+
 }

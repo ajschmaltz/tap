@@ -49,14 +49,14 @@
     <div class="col-md-6 col-md-offset-4">
       <div class="checkbox">
         <label>
-          <input type="checkbox" value="1" name="location"> Collect the Job's Location
+          <input type="checkbox" value="1" name="location"> Collect the Lead's Location
         </label>
       </div>
     </div>
   </div>
 
   <div class="form-group">
-    <label class="col-md-4 control-label">Send Jobs to E-Mail</label>
+    <label class="col-md-4 control-label">Send Leads to E-Mail</label>
     <div class="col-md-6">
       <input type="email" class="form-control" name="email" value="{{ old('email') }}">
     </div>

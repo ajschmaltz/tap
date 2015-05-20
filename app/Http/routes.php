@@ -25,13 +25,7 @@ Route::post('create', 'LeadFormController@post');
 
 Route::get('create', 'LeadFormController@create');
 
-Route::get('job/{id}', function($id){
-  $form = LeadForm::find($id);
-  return view('job')
-    ->withSteps(json_decode($form->photos))
-    ->withLocation($form->location)
-    ->withTitle($form->title);
-});
+Route::get('form/{id}', 'LeadFormController@show');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
