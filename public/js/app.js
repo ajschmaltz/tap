@@ -37,9 +37,9 @@
         var button, mycanvas;
         button = this.getButton(id);
         button.style.display = 'none';
-        mycanvas = document.createElement("canvas");
+        mycanvas = document.createElement("img");
         mycanvas.className = "poop";
-        uploader.drawThumbnail(id, mycanvas, window.innerWidth * .9);
+        uploader.drawThumbnail(id, mycanvas, 1000);
         return button.parentNode.getElementsByClassName('gallery')[0].appendChild(mycanvas);
       }
     }

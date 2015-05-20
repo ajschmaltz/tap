@@ -19,9 +19,9 @@ uploader = new qq.FineUploaderBasic
     onUpload: (id, name) ->
       button = @getButton(id)
       button.style.display = 'none'
-      mycanvas = document.createElement "canvas"
+      mycanvas = document.createElement "img"
       mycanvas.className = "poop"
-      uploader.drawThumbnail id, mycanvas, window.innerWidth *.9
+      uploader.drawThumbnail id, mycanvas, 1000
       button.parentNode.getElementsByClassName('gallery')[0].appendChild mycanvas
 
 initializeMap = ->

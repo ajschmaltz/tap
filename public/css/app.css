@@ -6231,10 +6231,6 @@ label,
 .checkbox label {
   font-weight: 300;
 }
-.poop {
-  display: block;
-  margin: 0 auto;
-}
 header {
   height: 10vh;
   position: relative;
@@ -6246,6 +6242,7 @@ header {
 .screen {
   height: 100vh;
   padding: 0 5vw;
+  background-color: #eee;
 }
 footer {
   height: 10vh;
@@ -6268,6 +6265,34 @@ h1 {
 }
 .orange-text {
   color: #e67d3c;
+}
+.shutter {
+  background-color: #fff;
+  border: 1px dashed #e67d3c;
+  min-height: 50vh;
+}
+.gallery {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 60%;
+  margin: 1.166%;
+  float: left;
+  cursor: pointer;
+  border-radius: 15px;
+  display: block;
+  box-sizing: border-box;
+  background-color: #ccc;
+}
+.poop {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=app.css.map */
