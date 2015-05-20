@@ -17,9 +17,10 @@ class CreateLeadFormsTable extends Migration {
 			$table->increments('id');
       $table->string('title');
       $table->json('photos');
-      $table->json('text');
-      $table->json('select');
+      $table->json('textfields');
+      $table->json('selects');
       $table->integer('location')->default(0);
+      $table->string('email');
 			$table->timestamps();
 		});
 	}

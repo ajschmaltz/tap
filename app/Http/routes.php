@@ -11,6 +11,8 @@
 |
 */
 
+use App\LeadForm;
+
 Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
@@ -19,16 +21,16 @@ Route::post('upload', 'UploadController@upload');
 
 Route::delete('upload', 'UploadController@delete');
 
-Route::get('create', function(){
-  return view('create');
-});
+Route::post('create', 'LeadFormController@post');
 
-Route::get('job', function(){
-  return view('job')->withSteps([
-    'Take a photo of your front yard.',
-    'Take a photo of your side yard.',
-    'Take a photo of your back yard.'
-  ]);
+Route::get('create', 'LeadFormController@create');
+
+Route::get('job/{id}', function($id){
+  $form = LeadForm::find($id);
+  return view('job')
+    ->withSteps(json_decode($form->photos))
+    ->withLocation($form->location)
+    ->withTitle($form->title);
 });
 
 Route::controllers([

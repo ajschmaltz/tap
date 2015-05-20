@@ -70,5 +70,20 @@ $(document).ready ->
   $("#fullpage").fullpage
     css3: true
     afterLoad: (anchorLink, index, slideAnchor, slideIndex) ->
-      Map.boot() if index is 2
+      Map.boot() if index is 2 and document.getElementById("map-canvas")
       return
+
+  max_fields = 10 #maximum input boxes allowed
+  wrapper = $("#photos") #Fields wrapper
+  add_button = $("#add_photo") #Add button ID
+  x = 1 #initlal text box count
+  $(add_button).click (e) -> #on add input button click
+    e.preventDefault()
+    if x < max_fields #max input box allowed
+      x++ #text box increment
+      $(wrapper).append "<div class=\"form-group\"><label class=\"col-md-4 control-label\">Take a Photo of<\/label><div class=\"col-md-6\"><input type=\"text\" class=\"form-control\" name=\"photos[]\"><\/div><\/div>" #add input box
+
+  $(wrapper).on "click", ".remove_field", (e) -> #user click on remove text
+    e.preventDefault()
+    $(this).parent("div").remove()
+    x--

@@ -106,13 +106,30 @@
   })();
 
   $(document).ready(function() {
-    return $("#fullpage").fullpage({
+    var add_button, max_fields, wrapper, x;
+    $("#fullpage").fullpage({
       css3: true,
       afterLoad: function(anchorLink, index, slideAnchor, slideIndex) {
-        if (index === 2) {
+        if (index === 2 && document.getElementById("map-canvas")) {
           Map.boot();
         }
       }
+    });
+    max_fields = 10;
+    wrapper = $("#photos");
+    add_button = $("#add_photo");
+    x = 1;
+    $(add_button).click(function(e) {
+      e.preventDefault();
+      if (x < max_fields) {
+        x++;
+        return $(wrapper).append("<div class=\"form-group\"><label class=\"col-md-4 control-label\">Take a Photo of<\/label><div class=\"col-md-6\"><input type=\"text\" class=\"form-control\" name=\"photos[]\"><\/div><\/div>");
+      }
+    });
+    return $(wrapper).on("click", ".remove_field", function(e) {
+      e.preventDefault();
+      $(this).parent("div").remove();
+      return x--;
     });
   });
 
