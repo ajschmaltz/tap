@@ -43,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/form/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="113" selection-end="113" vertical-scroll-proportion="0.24693252" vertical-offset="0" max-vertical-offset="652">
+            <state line="7" column="13" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticateWithStripeSubscription.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AuthenticateWithStripeSubscription.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Middleware/AuthenticateWithStripeSubscription.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="3" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="690">
+            <state line="17" column="29" selection-start="384" selection-end="384" vertical-scroll-proportion="0.54141104" vertical-offset="38" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -160,10 +160,10 @@
         <option value="$PROJECT_DIR$/resources/views/blocks/stripe-payment.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SubscriptionController.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/AuthenticateWithStripeSubscription.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/LeadFormController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/form/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/AuthenticateWithStripeSubscription.php" />
       </list>
     </option>
   </component>
@@ -597,26 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/AuthenticateWithStripeSubscription.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="3" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/form/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1150">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SubscriptionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="759">
-          <folding>
-            <element signature="e#39#61#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -638,7 +622,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/form/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="113" selection-end="113" vertical-scroll-proportion="0.24693252" vertical-offset="0" max-vertical-offset="652">
+        <state line="7" column="13" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SubscriptionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="17" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="759">
+          <folding>
+            <element signature="e#39#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/AuthenticateWithStripeSubscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="384" selection-end="384" vertical-scroll-proportion="0.54141104" vertical-offset="38" max-vertical-offset="690">
           <folding />
         </state>
       </provider>

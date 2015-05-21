@@ -15,7 +15,7 @@ class AuthenticateWithStripeSubscription {
 	{
     if ($request->user() && ! $request->user()->subscribed())
     {
-      return redirect('billing');
+      return redirect('invite');
     }
 
     return $next($request);
