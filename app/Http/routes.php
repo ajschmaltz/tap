@@ -14,7 +14,7 @@
 use App\LeadForm;
 
 Route::get('/', function(){
-  return redirect('form/1');
+  return view('welcome');
 });
 
 Route::get('home', 'HomeController@index');
@@ -25,9 +25,15 @@ Route::delete('upload', 'UploadController@delete');
 
 Route::post('create', 'LeadFormController@post');
 
-Route::get('create', 'LeadFormController@create');
+Route::get('form', 'LeadFormController@index');
+
+Route::get('form/create', 'LeadFormController@create');
 
 Route::get('form/{id}', 'LeadFormController@show');
+
+Route::get('invite', 'SubscriptionController@invite');
+
+Route::post('subscribe', 'SubscriptionController@subscribe');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

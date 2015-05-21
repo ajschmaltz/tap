@@ -6,9 +6,15 @@ use Illuminate\Http\Request;
 
 class LeadFormController extends Controller {
 
+  public function __construct()
+  {
+    $this->middleware('auth');
+    $this->middleware('subscription');
+  }
+
 	public function create()
   {
-    return view('create');
+    return view('form.create');
   }
 
   public function post(Request $request)
@@ -23,9 +29,14 @@ class LeadFormController extends Controller {
     ]);
   }
 
-  public function show($id, LeadForm $leadForm)
+  public function show($id, LeadForm $lead_form)
   {
-    return view('job')->withForm($leadForm->find($id));
+    return view('form.show')->withForm($lead_form->find($id));
+  }
+
+  public function index(LeadForm $lead_form)
+  {
+    return view('form.index')->withForms($lead_form->all());
   }
 
 }

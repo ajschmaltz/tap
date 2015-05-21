@@ -7,6 +7,7 @@
 
         </div>
       </div>
+      <div class="mantel"></div>
       <div class="text-center" style="margin-top: 20px;">
         Swipe <span class="glyphicon glyphicon-circle-arrow-right orange-text"></span> to add more photos or <span class="glyphicon glyphicon-circle-arrow-down orange-text"></span> for next step
       </div>

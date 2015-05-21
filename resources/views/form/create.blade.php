@@ -1,6 +1,7 @@
 @extends('app')
 
 @section('content')
+<h1>Create a Lead Form</h1>
 <form class="form-horizontal" role="form" method="POST" action="{{ url('/create') }}">
   <input type="hidden" name="_token" value="{{ csrf_token() }}">
 

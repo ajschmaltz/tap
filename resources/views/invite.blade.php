@@ -1,5 +1,5 @@
 @extends('app')
 
 @section('content')
-  poopy
+  @include ('blocks.stripe-payment')
 @endsection
