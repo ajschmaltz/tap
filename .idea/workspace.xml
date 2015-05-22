@@ -71,7 +71,7 @@
       <file leaf-file-name="welcome.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="8" selection-start="964" selection-end="964" vertical-scroll-proportion="0.46791863" vertical-offset="0" max-vertical-offset="639">
+            <state line="17" column="33" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.6118936" vertical-offset="0" max-vertical-offset="639">
               <folding />
             </state>
           </provider>
@@ -657,7 +657,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="964" selection-end="964" vertical-scroll-proportion="0.46791863" vertical-offset="0" max-vertical-offset="639">
+        <state line="17" column="33" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.6118936" vertical-offset="0" max-vertical-offset="639">
           <folding />
         </state>
       </provider>
