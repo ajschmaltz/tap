@@ -4,7 +4,7 @@
 
 <ul>
   @foreach ($forms as $form)
-  <li>{{ $form->id }}</li>
+  <li><a href="/form/{{ $form->id }}">{{ $form->title }}</a></li>
   @endforeach
 </ul>
 

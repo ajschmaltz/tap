@@ -4,7 +4,12 @@
       <h1 class="text-center">Where is the job?</h1>
       <div id="map-canvas" style="height: 45vh;"></div>
       <hr/>
-      <input class="form-control" placeholder="Enter your address" />
+      <div class="input-group">
+        <input id="address" class="form-control" placeholder="Enter your address" />
+        <span class="input-group-btn">
+          <button id="geocode" class="btn btn-default" type="button">Go!</button>
+        </span>
+      </div>
     </div>
   </div>
 </div>

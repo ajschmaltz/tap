@@ -24,8 +24,9 @@ uploader = new qq.FineUploaderBasic
       button.parentNode.getElementsByClassName('gallery')[0].appendChild mycanvas
 
 initializeMap = ->
+  window.geocoder = new google.maps.Geocoder()
   mapOptions = zoom: 14
-  map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions)
+  window.map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions)
 
   # Try HTML5 geolocation
   if navigator.geolocation
@@ -36,7 +37,7 @@ initializeMap = ->
         position: pos
         content: "Location found using HTML5."
       )
-      map.setCenter pos
+      window.map.setCenter pos
     ), ->
       handleNoGeolocation true
 
@@ -55,7 +56,7 @@ handleNoGeolocation = (errorFlag) ->
     content: content
 
   infowindow = new google.maps.InfoWindow(options)
-  map.setCenter options.position
+  window.map.setCenter options.position
 map = undefined
 
 class Map
@@ -66,6 +67,20 @@ class Map
       initializeMap()
 
 $(document).ready ->
+  $("#geocode").click ->
+    address = document.getElementById("address").value
+    window.geocoder.geocode
+      address: address
+    , (results, status) ->
+      if status is google.maps.GeocoderStatus.OK
+        window.map.setCenter results[0].geometry.location
+        marker = new google.maps.Marker(
+          map: map
+          position: results[0].geometry.location
+        )
+      else
+        alert "Geocode was not successful for the following reason: " + status
+
   $("#fullpage").fullpage
     controlArrows: false,
     verticalCentered: false,

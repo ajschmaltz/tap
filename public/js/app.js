@@ -45,11 +45,12 @@
   });
 
   initializeMap = function() {
-    var map, mapOptions;
+    var mapOptions;
+    window.geocoder = new google.maps.Geocoder();
     mapOptions = {
       zoom: 14
     };
-    map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+    window.map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
     if (navigator.geolocation) {
       return navigator.geolocation.getCurrentPosition((function(position) {
         var infowindow, pos;
@@ -59,7 +60,7 @@
           position: pos,
           content: "Location found using HTML5."
         });
-        return map.setCenter(pos);
+        return window.map.setCenter(pos);
       }), function() {
         return handleNoGeolocation(true);
       });
@@ -81,7 +82,7 @@
       content: content
     };
     infowindow = new google.maps.InfoWindow(options);
-    return map.setCenter(options.position);
+    return window.map.setCenter(options.position);
   };
 
   map = void 0;
@@ -106,6 +107,24 @@
 
   $(document).ready(function() {
     var add_button, max_fields, wrapper, x;
+    $("#geocode").click(function() {
+      var address;
+      address = document.getElementById("address").value;
+      return window.geocoder.geocode({
+        address: address
+      }, function(results, status) {
+        var marker;
+        if (status === google.maps.GeocoderStatus.OK) {
+          window.map.setCenter(results[0].geometry.location);
+          return marker = new google.maps.Marker({
+            map: map,
+            position: results[0].geometry.location
+          });
+        } else {
+          return alert("Geocode was not successful for the following reason: " + status);
+        }
+      });
+    });
     $("#fullpage").fullpage({
       controlArrows: false,
       verticalCentered: false,
