@@ -50,15 +50,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/coffee/app.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="22" selection-start="2312" selection-end="2312" vertical-scroll-proportion="3.8039215" vertical-offset="1965" max-vertical-offset="2553">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AuthController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,7 +62,16 @@
       <file leaf-file-name="welcome.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="33" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.6118936" vertical-offset="0" max-vertical-offset="639">
+            <state line="10" column="59" selection-start="930" selection-end="930" vertical-scroll-proportion="0.33603895" vertical-offset="23" max-vertical-offset="874">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="22" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
               <folding />
             </state>
           </provider>
@@ -166,14 +166,15 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/resources/views/blocks/location.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/coffee/app.coffee" />
+        <option value="$PROJECT_DIR$/public/style.css" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="72" />
-    <option name="y" value="132" />
+    <option name="x" value="422" />
+    <option name="y" value="116" />
     <option name="width" value="1138" />
     <option name="height" value="754" />
   </component>
@@ -253,6 +254,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -301,7 +316,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="132" width="1138" height="754" extended-state="0" />
+    <frame x="422" y="116" width="1138" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -655,9 +670,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.6118936" vertical-offset="0" max-vertical-offset="639">
+        <state line="10" column="59" selection-start="930" selection-end="930" vertical-scroll-proportion="0.33603895" vertical-offset="23" max-vertical-offset="874">
           <folding />
         </state>
       </provider>
