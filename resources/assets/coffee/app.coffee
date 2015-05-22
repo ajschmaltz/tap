@@ -75,7 +75,7 @@ $(document).ready ->
       if status is google.maps.GeocoderStatus.OK
         window.map.setCenter results[0].geometry.location
         marker = new google.maps.Marker(
-          map: map
+          map: window.map
           position: results[0].geometry.location
         )
       else
