@@ -16,12 +16,19 @@ uploader = new qq.FineUploaderBasic
     customHeaders:
         'X-XSRF-TOKEN': getCookie 'XSRF-TOKEN'
   callbacks:
-    onUpload: (id, name) ->
+    onSubmitted: (id, name) ->
       button = @getButton(id)
       mycanvas = document.createElement "img"
       mycanvas.className = "preview"
       uploader.drawThumbnail id, mycanvas, 1000
       button.parentNode.getElementsByClassName('gallery')[0].appendChild mycanvas
+
+$("#fullpage").submit (e) ->
+  e.preventDefault()
+  lead = $(this).serializeArray()
+  lead.push({name: 'photos', value: JSON.stringify(uploader.getUploads()) })
+  console.log lead
+  $.post('/lead', lead)
 
 initializeMap = ->
   window.geocoder = new google.maps.Geocoder()
@@ -33,6 +40,9 @@ initializeMap = ->
     navigator.geolocation.getCurrentPosition ((position) ->
       pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
       window.map.setCenter pos
+      console.log(pos.A)
+      $("#latitude").val pos.A
+      $("#longitude").val pos.F
       window.marker = new google.maps.Marker(
         map: window.map
         position: pos

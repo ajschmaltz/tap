@@ -33,7 +33,7 @@
       }
     },
     callbacks: {
-      onUpload: function(id, name) {
+      onSubmitted: function(id, name) {
         var button, mycanvas;
         button = this.getButton(id);
         mycanvas = document.createElement("img");
@@ -42,6 +42,18 @@
         return button.parentNode.getElementsByClassName('gallery')[0].appendChild(mycanvas);
       }
     }
+  });
+
+  $("#fullpage").submit(function(e) {
+    var lead;
+    e.preventDefault();
+    lead = $(this).serializeArray();
+    lead.push({
+      name: 'photos',
+      value: JSON.stringify(uploader.getUploads())
+    });
+    console.log(lead);
+    return $.post('/lead', lead);
   });
 
   initializeMap = function() {
@@ -56,6 +68,9 @@
         var pos;
         pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
         window.map.setCenter(pos);
+        console.log(pos.A);
+        $("#latitude").val(pos.A);
+        $("#longitude").val(pos.F);
         return window.marker = new google.maps.Marker({
           map: window.map,
           position: pos,

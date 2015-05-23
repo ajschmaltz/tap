@@ -2,7 +2,9 @@
 
 @section ('content')
 
-<div id="fullpage">
+<form method="post" action="/lead" id="fullpage">
+
+  <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
   <div class="section">
     <header></header>
@@ -36,10 +38,11 @@
     <div class="row screen">
       <div class="col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 col-sm-10 col-sm-push-1">
         <h1 class="text-center">Get a Quote</h1>
-        <input class="form-control" type="text" placeholder="Enter your phone number" />
+        <input class="form-control" name="phone" type="text" placeholder="Enter your phone number" />
+        <input type="submit" value="Submit" />
       </div>
     </div>
   </div>
-</div>
+</form>
 
 @endsection

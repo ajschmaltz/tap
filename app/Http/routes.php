@@ -31,6 +31,8 @@ Route::get('form/create', 'LeadFormController@create');
 
 Route::get('form/{id}', 'LeadFormController@show');
 
+Route::post('lead', 'LeadController@post');
+
 Route::get('invite', 'SubscriptionController@invite');
 
 Route::post('subscribe', 'SubscriptionController@subscribe');
