@@ -18,7 +18,7 @@
         var leadLink = document.createElement('a');
         leadLink.id = "tq_link";
         leadLink.href = "http://tap.app/form/" + formId;
-        var text = document.createTextNode('Creating Div Element')
+        var text = document.createTextNode('TapQuote')
         var el = document.getElementsByTagName('body') [0];
         leadLink.appendChild(text)
         el.appendChild(leadLink);

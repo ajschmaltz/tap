@@ -32,12 +32,12 @@ initializeMap = ->
   if navigator.geolocation
     navigator.geolocation.getCurrentPosition ((position) ->
       pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
-      infowindow = new google.maps.InfoWindow(
-        map: map
-        position: pos
-        content: "Location found using HTML5."
-      )
       window.map.setCenter pos
+      window.marker = new google.maps.Marker(
+        map: window.map
+        position: pos
+        draggable: true
+      )
     ), ->
       handleNoGeolocation true
 
@@ -74,10 +74,7 @@ $(document).ready ->
     , (results, status) ->
       if status is google.maps.GeocoderStatus.OK
         window.map.setCenter results[0].geometry.location
-        marker = new google.maps.Marker(
-          map: window.map
-          position: results[0].geometry.location
-        )
+        window.marker.setPosition results[0].geometry.location
       else
         alert "Geocode was not successful for the following reason: " + status
 

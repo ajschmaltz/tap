@@ -53,14 +53,14 @@
     window.map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
     if (navigator.geolocation) {
       return navigator.geolocation.getCurrentPosition((function(position) {
-        var infowindow, pos;
+        var pos;
         pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-        infowindow = new google.maps.InfoWindow({
-          map: map,
+        window.map.setCenter(pos);
+        return window.marker = new google.maps.Marker({
+          map: window.map,
           position: pos,
-          content: "Location found using HTML5."
+          draggable: true
         });
-        return window.map.setCenter(pos);
       }), function() {
         return handleNoGeolocation(true);
       });
@@ -113,13 +113,9 @@
       return window.geocoder.geocode({
         address: address
       }, function(results, status) {
-        var marker;
         if (status === google.maps.GeocoderStatus.OK) {
           window.map.setCenter(results[0].geometry.location);
-          return marker = new google.maps.Marker({
-            map: window.map,
-            position: results[0].geometry.location
-          });
+          return window.marker.setPosition(results[0].geometry.location);
         } else {
           return alert("Geocode was not successful for the following reason: " + status);
         }
