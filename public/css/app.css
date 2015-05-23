@@ -6239,10 +6239,26 @@ header {
   background-size: contain;
   border: 2.5vh solid #e3e3e3;
 }
+body:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background: url(http://mainstreetmower.com/slider-bg-5.png);
+  background-size: cover;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+  opacity: .1;
+}
 .screen {
   height: 100vh;
   padding: 0 5vw;
-  background-color: #fff;
 }
 footer {
   height: 10vh;
