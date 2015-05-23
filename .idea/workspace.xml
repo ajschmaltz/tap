@@ -69,9 +69,9 @@
         </entry>
       </file>
       <file leaf-file-name="tq.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/tq.js">
+        <entry file="file://$PROJECT_DIR$/public/tq.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.7918623" vertical-offset="0" max-vertical-offset="644">
+            <state line="17" column="44" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.6118936" vertical-offset="0" max-vertical-offset="667">
               <folding />
             </state>
           </provider>
@@ -167,6 +167,7 @@
         <option value="$PROJECT_DIR$/public/style.css" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/public/js/tq.js" />
+        <option value="$PROJECT_DIR$/public/tq.js" />
       </list>
     </option>
   </component>
@@ -302,8 +303,8 @@
       <recent name="$PROJECT_DIR$/resources/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/form" />
       <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/resources/views/form" />
       <recent name="$PROJECT_DIR$/resources/views/blocks" />
     </key>
   </component>
@@ -701,9 +702,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/tq.js">
+    <entry file="file://$PROJECT_DIR$/public/tq.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.7918623" vertical-offset="0" max-vertical-offset="644">
+        <state line="17" column="44" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.6118936" vertical-offset="0" max-vertical-offset="667">
           <folding />
         </state>
       </provider>

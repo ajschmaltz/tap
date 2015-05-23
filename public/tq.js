@@ -13,8 +13,9 @@
             link.media = 'all';
             head.appendChild(link);
         }
-        var leadLink = document.createElement('div');
+        var leadLink = document.createElement('a');
         leadLink.id = "tq_lead";
+        leadLink.href = "http://google.com";
         var text = document.createTextNode('Creating Div Element')
         var el = document.getElementsByTagName('body') [0];
         leadLink.appendChild(text)
