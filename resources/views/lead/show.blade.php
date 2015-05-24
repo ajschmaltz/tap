@@ -1,6 +1,6 @@
 <li>
   {{ $lead }}
   @foreach ($lead->photos as $photo)
-  <li><img src="/files/{{ $photo->uuid }}/{{ $photo->filename }}" /></li>
+  <img src="/files/{{ $photo->uuid }}/{{ $photo->filename }}" />
   @endforeach
 </li>
