@@ -33,6 +33,10 @@ Route::get('form/{id}', 'LeadFormController@show');
 
 Route::post('lead', 'LeadController@post');
 
+Route::get('lead', 'LeadController@index');
+
+Route::get('lead/{id}', 'LeadController@show');
+
 Route::get('invite', 'SubscriptionController@invite');
 
 Route::post('subscribe', 'SubscriptionController@subscribe');

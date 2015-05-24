@@ -53,7 +53,9 @@
       value: JSON.stringify(uploader.getUploads())
     });
     console.log(lead);
-    return $.post('/lead', lead);
+    return $.post('/lead', lead, function() {
+      return window.location.replace("/");
+    });
   });
 
   initializeMap = function() {
@@ -69,8 +71,7 @@
         pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
         window.map.setCenter(pos);
         console.log(pos.A);
-        $("#latitude").val(pos.A);
-        $("#longitude").val(pos.F);
+        $("#location").val(pos);
         return window.marker = new google.maps.Marker({
           map: window.map,
           position: pos,

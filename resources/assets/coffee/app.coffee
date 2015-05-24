@@ -28,7 +28,8 @@ $("#fullpage").submit (e) ->
   lead = $(this).serializeArray()
   lead.push({name: 'photos', value: JSON.stringify(uploader.getUploads()) })
   console.log lead
-  $.post('/lead', lead)
+  $.post '/lead', lead, ->
+    window.location.replace("/")
 
 initializeMap = ->
   window.geocoder = new google.maps.Geocoder()
@@ -41,8 +42,7 @@ initializeMap = ->
       pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude)
       window.map.setCenter pos
       console.log(pos.A)
-      $("#latitude").val pos.A
-      $("#longitude").val pos.F
+      $("#location").val pos
       window.marker = new google.maps.Marker(
         map: window.map
         position: pos
