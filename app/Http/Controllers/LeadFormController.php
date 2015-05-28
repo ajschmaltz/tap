@@ -8,8 +8,8 @@ class LeadFormController extends Controller {
 
   public function __construct()
   {
-    $this->middleware('auth');
-    $this->middleware('subscription');
+    $this->middleware('auth', ['except' => 'show']);
+    $this->middleware('subscription', ['except' => 'show']);
   }
 
 	public function create()
